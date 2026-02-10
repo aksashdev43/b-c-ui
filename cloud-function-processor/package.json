@@ -1,0 +1,11 @@
+{
+  "name": "darkweb-file-processor",
+  "version": "1.0.0",
+  "description": "Auto-process threat intelligence files uploaded to GCS",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "pg": "^8.11.3",
+    "fast-xml-parser": "^4.3.3"
+  }
+}
